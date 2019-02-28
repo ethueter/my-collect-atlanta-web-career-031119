@@ -3,9 +3,7 @@ def my_collect(array)
    x = 0 
    while x < array.length do
      new_array = []
-      array.each do |name|
-        yield(name)
-      new_array.push(name)
+      .push(yield(array))
       x +=1
       end 
    end
