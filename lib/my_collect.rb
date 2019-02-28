@@ -4,6 +4,7 @@ def my_collect(array)
    while x < array.length do
      new_array = []
       array.each do |name|
+        yield(array, name)
       new_array.push(name)
       x +=1
       end 
