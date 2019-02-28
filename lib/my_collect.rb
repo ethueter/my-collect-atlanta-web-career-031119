@@ -5,7 +5,6 @@ def my_collect(array)
      new_array = []
       new_array.push(yield(array))
       x +=1
-      end 
    end
   end
   new_array
