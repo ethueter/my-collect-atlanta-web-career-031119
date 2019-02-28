@@ -8,6 +8,5 @@ def my_collect(array)
   x +=1
 end 
 end
-new_array
 end
 
