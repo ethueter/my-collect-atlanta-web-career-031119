@@ -3,7 +3,7 @@ def my_collect(array)
    x = 0 
   while x < array.length do
     new_array = []
-    var = yield(array[x])
+    var = yield(array)
     new_array.push(var)
   x +=1
 end 
